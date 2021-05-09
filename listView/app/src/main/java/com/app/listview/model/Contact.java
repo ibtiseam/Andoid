@@ -1,13 +1,13 @@
-package com.app.listview;
+package com.app.listview.model;
 
 import java.io.Serializable;
 
-public class ContactObject implements Serializable {
+public class Contact implements Serializable {
 
     public static final  long serialVersionUID = 1L;
     private String Name, Phone, Email, Website;
 
-    public ContactObject(String name, String phone, String email, String website) {
+    public Contact(String name, String phone, String email, String website) {
         super();
         Name = name;
         Phone = phone;
